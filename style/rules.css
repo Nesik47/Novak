@@ -1,0 +1,133 @@
+html{
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  background-color: #f1efef;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  height: 100%;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__inner{
+  background-color: #91dfa6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+  }
+  .header__link{
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 20px;
+  }
+  
+  .header__link a{
+    transition: all .3s;
+  }
+  
+  .header__link a:hover{
+    color: #468f59;
+    transform: scale(1.1);
+  
+  }
+  .header__link li{
+    display: inline;
+  }
+  .header__link li + li{
+    margin-left: 40px
+    ;
+  }
+  .header__logo img{
+   height: 80px;
+   width: 80px;
+  }
+.main{
+  padding-left: 145px;
+}
+  .descriptiont{
+    max-width: 1000px;
+    margin-bottom: 45px
+  }
+.photo img{
+  min-width: 1000px;
+  border-radius: 10px;
+  transition: all .3s;
+  cursor: pointer;
+  margin-bottom: 45px;
+}
+
+.photo img:hover{
+    box-shadow: 11px 14px 57px -5px rgba(96,202,84,0.48);
+  -webkit-box-shadow: 11px 14px 57px -5px rgba(96,202,84,0.48);
+  -moz-box-shadow: 11px 14px 57px -5px rgba(96,202,84,0.48);
+}
+.main__text{
+  max-width: 1000px;
+  margin-bottom: 70px;
+}
+.main__text-title{
+  font-weight: 700;
+}
+
+.footer{
+  background-color:#91dfa6;
+  padding-top:50px;
+  font-weight: 500;
+}
+.footer__links li {
+  display: inline;
+  font-size: 18px;
+}
+
+.footer__links a{
+  transition: all .3s;
+}
+
+.footer__links a:hover{
+  color: #468f59;
+  transform: scale(1.1);
+}
+.footer__links li + li {
+  display: inline;
+  margin-left: 50px;
+}
+.footer__links{
+display: flex;
+justify-content: space-around;
+margin-bottom: 20px;
+}
+.footer__info {
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.footer__links-title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
